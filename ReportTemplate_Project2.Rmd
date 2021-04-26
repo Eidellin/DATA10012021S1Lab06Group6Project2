@@ -1,0 +1,94 @@
+---
+title: "What is the relationship between sleep and productivity?"
+author: "Wed13CC_ABS3100_Group06 in Canvas; 510477536"
+subtitle: "Project 2"
+date: "University of Sydney | DATA1001 | September 2020"
+output:
+  html_document:
+    fig_caption: yes
+    number_sections: yes
+    self_contained: yes
+    theme: flatly
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    code_folding: hide
+---
+
+<br>
+
+# Executive Summary
+
+<br>
+
+# Full Report
+
+## Initial Data Analysis (IDA)
+
+```{r, eval=F}
+install.packages("googlesheets4")
+```
+
+```{r, eval = F}
+library(googlesheets4)
+library(tidyverse)
+```
+
+```{r, eval = F}
+# Read in your survey data
+survey = read_sheet("https://docs.google.com/spreadsheets/d/1hUxrGis_itQbbBBLIYoyJz__lBQv1BdHDIpbwmw3eGs/edit?usp=sharing")
+```
+
+```{r}
+age = ordered(survey$`How old are you?`, levels=c("15-17", "18-21", "22-25", "30 and above"))
+job = survey$`What is your current employment status?`
+go_bed = ordered(survey$`On average, what time do you usually go to bed each night?`, levels=c("Earlier than 9pm", "9-10pm", "10-11pm", "11pm-12am", "12-1am", "1am-2am", "Later than 2am"))  
+wake_up = survey$`On average, what time do you wake up each morning?`
+go_affect = survey$`Does going to bed early affect how productive you are the next day?`
+wake_affect = survey$`Does waking up early affect how productive you are that day?`
+sleeping_hours = survey$`How many hours on average do you sleep each night?`
+eightplus_affect = survey$`Does getting 8+ hours of sleep per night affect how productive you are?`
+enough_sleep = survey$`Do you believe you get enough sleep?`
+r_u = survey$`Do you consider yourself a productive person?`
+u_believe = survey$`Do you believe sleep has an effect on your productivity`
+```
+
+<br>
+
+## Research Questions 
+
+age vs average hour to sleep
+```{r}
+# length of any variable is the number of people involved in the survey
+n <- length(age)
+for (i in 1:n) {
+  if (sleeping_hours[i]=="3 or less") {
+    sleeping_hours[i] <- 3
+  } else if (sleeping_hours[i]=="10 or more") {
+    sleeping_hours[i] <-10
+  }
+}
+sleeping_hours <- unlist(sleeping_hours)
+ls1 <- list()
+for (i in unique(age)) {
+  ls1[[i]] <- mean(sleeping_hours[age==i])
+}
+print(ls1)
+a = unlist(ls1)
+a
+barplot(a)
+```
+
+<br>
+
+## Related Articles
+
+<br>
+
+## References
+Use APA
+
+<br>
+
+## Acknowledgments
+When did you team meet (date and time), and what did each team member contribute?
