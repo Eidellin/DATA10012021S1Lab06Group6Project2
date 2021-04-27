@@ -1,0 +1,132 @@
+Timestamp,How old are you?,What is your current employment status?,"On average, what time do you usually go to bed each night?",Does going to bed early affect how productive you are the next day?,"On average, what time do you wake up each morning?",Does waking up early affect how productive you are that day?,How many hours on average do you sleep each night?,How many hours on average do you spend studying/doing work each day?,Does getting 8+ hours of sleep per night affect how productive you are?,Do you believe you get enough sleep?,Do you consider yourself a productive person? ,Do you believe sleep has an effect on your productivity
+12/04/2021 13:33:00,18-21,Full-time tertiary student,Earlier than 9pm,5,5am or earlier,6,7,2-4 hours,8,2,Moderately productive,Partly Agree
+12/04/2021 13:38:46,18-21,Full-time tertiary student,Later than 2am,4,11am,9,9,2-4 hours,6,4,Slightly productive,Strongly Agree
+12/04/2021 13:40:28,15-17,Full-time tertiary student,11pm-12am,7,9am,8,7,2-4 hours,4,3,Moderately productive,Partly Agree
+12/04/2021 13:41:13,18-21,Full-time tertiary student,11pm-12am,7,9am,9,8,4-6 hours,6,4,Slightly productive,Partly Agree
+12/04/2021 13:42:12,18-21,Part time employee,12-1am,10,9am,10,7,4-6 hours,10,2,Moderately productive,Strongly Agree
+12/04/2021 13:42:35,15-17,Casual high school student ,10-11pm,5,6am,10,6,0-2 hours,5,2,Not at all productive,Neither agree nor disagree
+12/04/2021 13:43:05,15-17,Full-time tertiary student,12-1am,7,10am,8,7,0-2 hours,10,2,Moderately productive,Strongly Agree
+12/04/2021 13:43:52,18-21,Full-time tertiary student,10-11pm,8,8am,7,7,4-6 hours,9,4,Moderately productive,Partly Agree
+12/04/2021 13:44:50,18-21,Full-time tertiary student,1am-2am,5,10am,9,6,4-6 hours,9,2,Slightly productive,Partly Agree
+12/04/2021 13:45:06,18-21,Full-time tertiary student,10-11pm,7,8am,3,8,6-8 hours,9,4,Moderately productive,Strongly Agree
+12/04/2021 13:46:49,15-17,High school student,10-11pm,4,6am,3,7,2-4 hours,8,2,Moderately productive,Partly Agree
+12/04/2021 13:51:59,18-21,Full-time tertiary student,11pm-12am,10,8am,10,7,6-8 hours,10,2,Slightly productive,Partly Agree
+12/04/2021 13:52:16,18-21,Full-time tertiary student,10-11pm,3,8am,4,8,4-6 hours,6,3,Moderately productive,Partly Agree
+12/04/2021 13:52:52,18-21,High school student,12-1am,4,8am,6,7,0-2 hours,6,3,Slightly productive,Partly Agree
+12/04/2021 13:55:31,18-21,Part time employee,12-1am,7,11am,8,7,2-4 hours,6,2,Moderately productive,Strongly Agree
+12/04/2021 13:55:56,22-25,Full time employee,1am-2am,7,10am,6,5,8 or more hours,9,1,Moderately productive,Strongly Agree
+12/04/2021 13:57:34,18-21,Unemployed,12-1am,7,10am,2,8,0-2 hours,1,1,Not at all productive,Partly Agree
+12/04/2021 13:59:06,18-21,Full-time tertiary student,11pm-12am,9,8am,7,7,8 or more hours,9,2,Moderately productive,Strongly Agree
+12/04/2021 13:59:24,18-21,Full-time tertiary student,11pm-12am,1,7am,1,7,6-8 hours,1,5,Extremely productive,Strongly Disagree
+12/04/2021 14:00:32,15-17,High school student,10-11pm,8,7am,10,10 or more,0-2 hours,10,4,Slightly productive,Strongly Agree
+12/04/2021 14:03:36,18-21,Full-time tertiary student,12-1am,9,9am,9,7,4-6 hours,8,3,Moderately productive,Strongly Agree
+12/04/2021 14:03:59,18-21,full time tertiary + part time employee,9-10pm,8,7am,4,8,2-4 hours,5,4,Slightly productive,Partly Agree
+12/04/2021 14:06:40,18-21,Unemployed,Later than 2am,10,12pm or later,10,9,0-2 hours,1,5,Not at all productive,Strongly Disagree
+12/04/2021 14:06:57,18-21,Part time employee,1am-2am,3,10am,10,7,2-4 hours,10,2,Not at all productive,Neither agree nor disagree
+12/04/2021 14:09:35,18-21,Full-time tertiary student,11pm-12am,10,8am,7,7,4-6 hours,10,3,Slightly productive,Strongly Agree
+12/04/2021 14:11:47,18-21,Full-time tertiary student,12-1am,5,9am,7,7,0-2 hours,4,3,Moderately productive,Partly Agree
+12/04/2021 14:18:12,18-21,Part time employee,10-11pm,5,8am,8,9,6-8 hours,8,5,Moderately productive,Partly Agree
+12/04/2021 14:22:49,18-21,Full-time tertiary student,11pm-12am,8,7am,8,7,4-6 hours,9,1,Moderately productive,Strongly Agree
+12/04/2021 14:34:47,15-17,Full-time tertiary student,11pm-12am,7,9am,6,7,4-6 hours,6,3,Slightly productive,Partly Agree
+12/04/2021 14:43:46,18-21,Full-time tertiary student,10-11pm,1,6am,1,7,4-6 hours,1,5,Moderately productive,Partly Agree
+12/04/2021 14:51:07,15-17,High school student,11pm-12am,7,7am,5,7,4-6 hours,8,3,Moderately productive,Partly Agree
+12/04/2021 14:54:11,18-21,Full-time tertiary student,11pm-12am,10,8am,4,6,4-6 hours,8,2,Slightly productive,Partly Agree
+12/04/2021 14:59:19,18-21,Full-time tertiary student,10-11pm,8,8am,7,8,4-6 hours,8,3,Moderately productive,Partly Agree
+12/04/2021 15:02:12,18-21,Full-time tertiary student,12-1am,8,9am,8,7,2-4 hours,7,3,Slightly productive,Partly Agree
+12/04/2021 15:06:52,18-21,Full-time tertiary student,1am-2am,6,11am,7,8,4-6 hours,7,2,Slightly productive,Partly Agree
+12/04/2021 15:10:31,18-21,Full-time tertiary student,10-11pm,10,7am,7,8,4-6 hours,10,5,Moderately productive,Strongly Agree
+12/04/2021 15:10:51,22-25,Full time employee,10-11pm,4,5am or earlier,5,6,8 or more hours,2,4,Extremely productive,Partly disagree
+12/04/2021 15:11:08,22-25,Full time employee,10-11pm,4,5am or earlier,5,6,8 or more hours,2,4,Extremely productive,Partly disagree
+12/04/2021 15:11:31,18-21,Part time employee,10-11pm,6,8am,5,8,4-6 hours,6,4,Moderately productive,Partly Agree
+12/04/2021 15:21:54,15-17,High school student,10-11pm,10,7am,8,7,2-4 hours,10,2,Moderately productive,Strongly Agree
+12/04/2021 15:21:54,18-21,Part time employee,1am-2am,10,10am,10,6,0-2 hours,7,2,Moderately productive,Strongly Agree
+12/04/2021 15:26:05,18-21,Casual employee,12-1am,9,10am,7,8,2-4 hours,6,4,Moderately productive,Strongly Agree
+12/04/2021 15:27:37,18-21,Full-time tertiary student,1am-2am,9,8am,8,6,2-4 hours,8,2,Slightly productive,Strongly Agree
+12/04/2021 15:33:55,18-21,Part time employee,12-1am,6,10am,10,7,2-4 hours,8,2,Slightly productive,Partly Agree
+12/04/2021 15:42:12,18-21,Full-time tertiary student,1am-2am,4,10am,9,7,4-6 hours,2,4,Moderately productive,Partly Agree
+12/04/2021 15:44:07,18-21,Part-time tertiary student,11pm-12am,6,9am,9,7,4-6 hours,7,3,Moderately productive,Partly Agree
+12/04/2021 15:46:18,18-21,Part time employee,10-11pm,7,9am,4,8,8 or more hours,5,2,Moderately productive,Partly Agree
+12/04/2021 15:50:24,18-21,Part-time tertiary student,Later than 2am,6,9am,10,6,6-8 hours,3,3,Moderately productive,Neither agree nor disagree
+12/04/2021 16:00:04,18-21,Part-time tertiary student,12-1am,1,10am,1,8,2-4 hours,1,3,Moderately productive,Partly Agree
+12/04/2021 16:08:32,18-21,Full-time tertiary student,11pm-12am,9,10am,9,8,2-4 hours,9,5,Slightly productive,Strongly Agree
+12/04/2021 16:17:55,18-21,Full-time tertiary student,1am-2am,8,11am,10,10 or more,4-6 hours,8,5,Slightly productive,Strongly Agree
+12/04/2021 16:18:31,18-21,Unemployed,1am-2am,5,10am,5,8,0-2 hours,4,4,Moderately productive,Neither agree nor disagree
+12/04/2021 16:35:08,22-25,Full time employee,12-1am,6,8am,6,7,6-8 hours,3,3,Moderately productive,Partly Agree
+12/04/2021 16:38:24,18-21,Full time employee,12-1am,3,7am,2,6,8 or more hours,3,4,Moderately productive,Partly Agree
+12/04/2021 16:46:27,18-21,Enrolled in disability employment service ,1am-2am,3,7am,2,3 or less,4-6 hours,1,1,Slightly productive,Partly Agree
+12/04/2021 16:50:01,22-25,Full-time tertiary student,11pm-12am,8,8am,6,7,6-8 hours,8,3,Moderately productive,Strongly Agree
+12/04/2021 16:51:43,18-21,Full-time tertiary student,1am-2am,8,11am,5,6,6-8 hours,8,1,Moderately productive,Strongly Agree
+12/04/2021 17:04:04,18-21,Part time employee,10-11pm,2,5am or earlier,6,6,0-2 hours,10,3,Moderately productive,Partly Agree
+12/04/2021 17:06:30,18-21,Full-time tertiary student,11pm-12am,4,8am,7,7,2-4 hours,7,3,Slightly productive,Partly Agree
+12/04/2021 17:08:00,18-21,Full-time tertiary student,11pm-12am,4,8am,7,7,2-4 hours,7,3,Slightly productive,Partly Agree
+12/04/2021 17:09:12,18-21,Part time employee,1am-2am,8,9am,7,7,2-4 hours,4,3,Slightly productive,Strongly Agree
+12/04/2021 17:19:58,18-21,Full-time tertiary student,11pm-12am,7,8am,3,9,6-8 hours,8,2,Moderately productive,Partly Agree
+12/04/2021 17:22:25,15-17,High school student,11pm-12am,7,8am,3,8,0-2 hours,8,4,Slightly productive,Strongly Agree
+12/04/2021 17:24:58,18-21,Full-time tertiary student,12-1am,1,9am,5,8,6-8 hours,6,4,Not at all productive,Neither agree nor disagree
+12/04/2021 17:30:27,18-21,High school student,12-1am,4,7am,8,6,0-2 hours,2,2,Slightly productive,Partly Agree
+12/04/2021 17:36:17,18-21,Full-time tertiary student,1am-2am,7,7am,9,5,4-6 hours,9,1,Moderately productive,Partly Agree
+12/04/2021 17:42:38,18-21,Full-time tertiary student,Later than 2am,5,8am,10,5,2-4 hours,7,2,Not at all productive,Neither agree nor disagree
+12/04/2021 17:46:03,22-25,Full time employee,9-10pm,6,5am or earlier,2,7,8 or more hours,7,5,Extremely productive,Partly Agree
+12/04/2021 17:51:00,18-21,Full-time tertiary student,11pm-12am,10,9am,6,8,2-4 hours,10,3,Not at all productive,Strongly Agree
+12/04/2021 17:56:35,18-21,Full-time tertiary student,9-10pm,8,5am or earlier,7,8,4-6 hours,8,4,Moderately productive,Strongly Agree
+12/04/2021 18:03:47,18-21,Full-time tertiary student,10-11pm,10,8am,7,9,4-6 hours,10,4,Slightly productive,Neither agree nor disagree
+12/04/2021 18:04:48,18-21,Full time tertiary student & part time employee,11pm-12am,8,7am,8,7,4-6 hours,8,2,Moderately productive,Strongly Agree
+12/04/2021 18:17:36,18-21,Full-time tertiary student,10-11pm,2,7am,2,8,2-4 hours,2,4,Moderately productive,Neither agree nor disagree
+12/04/2021 18:25:44,18-21,Full-time tertiary student,10-11pm,8,7am,9,6,4-6 hours,10,1,Moderately productive,Partly Agree
+12/04/2021 18:26:35,18-21,Full time employee,9-10pm,7,8am,8,9,4-6 hours,9,4,Moderately productive,Strongly Agree
+12/04/2021 18:30:28,22-25,Full time employee,9-10pm,7,5am or earlier,7,7,6-8 hours,9,3,Moderately productive,Strongly Agree
+12/04/2021 18:44:31,18-21,Full-time tertiary student,1am-2am,5,9am,8,7,2-4 hours,5,3,Not at all productive,Partly Agree
+12/04/2021 18:53:23,22-25,Full time employee,9-10pm,7,7am,2,6,8 or more hours,6,2,Slightly productive,Partly Agree
+12/04/2021 19:04:22,18-21,Full-time tertiary student,Later than 2am,7,8am,9,5,8 or more hours,10,3,Moderately productive,Strongly Agree
+12/04/2021 19:41:55,15-17,Part time employee,12-1am,7,9am,5,7,4-6 hours,5,2,Slightly productive,Neither agree nor disagree
+12/04/2021 19:50:06,15-17,Part-time tertiary student,10-11pm,8,8am,9,8,2-4 hours,9,3,Moderately productive,Strongly Agree
+12/04/2021 19:53:54,18-21,Full-time tertiary student,11pm-12am,4,6am,1,6,4-6 hours,10,1,Slightly productive,Partly Agree
+12/04/2021 20:06:52,18-21,Full-time tertiary student,Later than 2am,8,6am,6,3 or less,6-8 hours,8,2,Moderately productive,Partly Agree
+12/04/2021 20:18:23,30 and above,Employer,12-1am,8,7am,8,7,4-6 hours,8,2,Slightly productive,Partly Agree
+12/04/2021 20:56:51,18-21,Full-time tertiary student,10-11pm,9,5am or earlier,6,7,8 or more hours,7,4,Slightly productive,Partly Agree
+12/04/2021 21:09:56,18-21,Full-time tertiary student,10-11pm,4,8am,7,9,2-4 hours,7,2,Moderately productive,Partly Agree
+12/04/2021 21:39:29,18-21,Full-time tertiary student,11pm-12am,7,8am,8,8,2-4 hours,8,4,Moderately productive,Strongly Agree
+12/04/2021 21:52:46,15-17,Full-time tertiary student,11pm-12am,7,8am,8,7,2-4 hours,7,3,Slightly productive,Partly Agree
+12/04/2021 22:08:06,18-21,Full-time tertiary student,11pm-12am,4,8am,7,7,4-6 hours,6,2,Moderately productive,Neither agree nor disagree
+12/04/2021 22:13:24,15-17,High school student,10-11pm,5,8am,7,8,0-2 hours,7,5,Moderately productive,Partly Agree
+12/04/2021 22:39:03,18-21,Part-time tertiary student,9-10pm,4,7am,9,7,0-2 hours,10,3,Moderately productive,Strongly Agree
+12/04/2021 22:39:46,18-21,Full time tertiary student and part time employee,12-1am,9,10am,9,7,4-6 hours,6,5,Not at all productive,Strongly Agree
+12/04/2021 22:42:55,18-21,Full-time tertiary student,10-11pm,10,7am,10,8,2-4 hours,10,3,Moderately productive,Strongly Agree
+12/04/2021 23:00:55,18-21,Part time employee,12-1am,6,10am,8,7,2-4 hours,7,2,Moderately productive,Partly Agree
+12/04/2021 23:39:45,18-21,Full-time tertiary student,12-1am,8,8am,9,7,2-4 hours,4,3,Slightly productive,Partly Agree
+13/04/2021 01:39:13,18-21,Full-time tertiary student,12-1am,8,9am,10,6,4-6 hours,9,2,Moderately productive,Strongly Agree
+13/04/2021 02:54:51,18-21,Full-time tertiary student,1am-2am,8,9am,9,6,8 or more hours,10,2,Moderately productive,Strongly Agree
+13/04/2021 06:09:06,18-21,Full-time tertiary student,11pm-12am,4,6am,7,6,6-8 hours,8,2,Moderately productive,Strongly Agree
+13/04/2021 08:27:34,18-21,Full-time tertiary student,11pm-12am,9,7am,4,7,6-8 hours,10,4,Moderately productive,Strongly Agree
+13/04/2021 08:51:56,18-21,Full-time tertiary student,Later than 2am,8,12pm or later,8,8,8 or more hours,9,1,Slightly productive,Partly Agree
+13/04/2021 09:07:53,15-17,Full-time tertiary student,11pm-12am,7,7am,9,7,4-6 hours,8,2,Extremely productive,Strongly Agree
+13/04/2021 10:39:08,18-21,Full-time tertiary student,11pm-12am,1,10am,1,8,4-6 hours,1,5,Not at all productive,Partly disagree
+13/04/2021 11:07:07,18-21,Full-time tertiary student,12-1am,5,9am,7,6,4-6 hours,7,2,Moderately productive,Partly Agree
+13/04/2021 11:40:34,18-21,Full-time tertiary student,Later than 2am,6,11am,4,7,2-4 hours,3,4,Slightly productive,Partly Agree
+13/04/2021 13:03:07,18-21,Full-time tertiary student,11pm-12am,8,8am,9,8,2-4 hours,7,4,Moderately productive,Partly Agree
+13/04/2021 13:09:57,18-21,Full-time tertiary student,12-1am,8,9am,8,8,6-8 hours,10,4,Moderately productive,Strongly Agree
+13/04/2021 13:10:27,18-21,Full-time tertiary student,11pm-12am,10,7am,8,6,2-4 hours,9,2,Slightly productive,Strongly Agree
+13/04/2021 13:15:41,18-21,Full time employee,12-1am,5,8am,6,6,8 or more hours,4,1,Moderately productive,Strongly Agree
+13/04/2021 13:17:33,18-21,Full time employee,9-10pm,5,6am,9,8,6-8 hours,9,3,Moderately productive,Strongly Agree
+13/04/2021 13:18:06,18-21,Full-time tertiary student,Later than 2am,8,8am,9,6,2-4 hours,10,2,Moderately productive,Strongly Agree
+13/04/2021 13:25:48,18-21,Full-time tertiary student,11pm-12am,7,7am,3,7,4-6 hours,5,1,Moderately productive,Partly Agree
+13/04/2021 13:27:40,18-21,Full-time tertiary student,11pm-12am,6,8am,8,7,2-4 hours,7,2,Moderately productive,Partly Agree
+13/04/2021 13:28:48,18-21,Full-time tertiary student,11pm-12am,7,7am,9,7,4-6 hours,3,3,Moderately productive,Partly Agree
+13/04/2021 13:36:03,15-17,High school student,10-11pm,4,6am,2,7,4-6 hours,3,1,Extremely productive,Neither agree nor disagree
+13/04/2021 13:39:03,22-25,Unemployed,12-1am,7,10am,7,8,6-8 hours,9,4,Slightly productive,Partly Agree
+13/04/2021 13:40:23,18-21,Full-time tertiary student,11pm-12am,6,9am,8,8,6-8 hours,8,4,Moderately productive,Strongly Agree
+13/04/2021 14:27:55,18-21,Part time employee,12-1am,7,9am,5,7,2-4 hours,6,3,Moderately productive,Partly Agree
+13/04/2021 14:34:20,18-21,Part time employee,12-1am,3,8am,8,7,2-4 hours,1,2,Not at all productive,Partly Agree
+13/04/2021 15:40:26,18-21,Full-time tertiary student,10-11pm,9,9am,6,8,4-6 hours,5,1,Slightly productive,Partly Agree
+13/04/2021 16:38:17,18-21,Part time employed  and full time tertiary,1am-2am,7,8am,8,6,4-6 hours,6,2,Moderately productive,Partly disagree
+13/04/2021 17:40:01,18-21,Full-time tertiary student,1am-2am,9,5am or earlier,10,4,4-6 hours,9,1,Moderately productive,Partly Agree
+13/04/2021 17:50:37,18-21,Full-time tertiary student,1am-2am,8,9am,9,7,2-4 hours,9,3,Slightly productive,Strongly Agree
+13/04/2021 19:10:59,18-21,Full-time tertiary student,1am-2am,5,10am,9,9,4-6 hours,5,4,Moderately productive,Strongly Agree
+13/04/2021 20:33:07,18-21,High school student,9-10pm,8,5am or earlier,5,8,4-6 hours,2,5,Moderately productive,Strongly Agree
+13/04/2021 22:22:37,18-21,Full-time tertiary student,1am-2am,8,9am,6,8,4-6 hours,9,4,Slightly productive,Partly Agree
+13/04/2021 23:08:27,18-21,Full-time tertiary student,11pm-12am,8,9am,7,8,4-6 hours,10,3,Slightly productive,Partly Agree
+14/04/2021 18:49:51,18-21,Full-time tertiary student,1am-2am,8,10am,9,7,4-6 hours,10,2,Moderately productive,Strongly Agree
+15/04/2021 10:33:17,18-21,Full-time tertiary student,Earlier than 9pm,1,8am,1,9,2-4 hours,3,5,Slightly productive,Partly Agree
+15/04/2021 16:10:23,18-21,full time student and part time worker,10-11pm,9,8am,10,9,4-6 hours,8,4,Moderately productive,Strongly Agree
+15/04/2021 19:41:18,18-21,Full-time tertiary student,11pm-12am,10,10am,7,7,0-2 hours,9,2,Slightly productive,Partly Agree
+16/04/2021 13:06:24,18-21,Full-time tertiary student,1am-2am,6,8am,8,6,4-6 hours,8,1,Moderately productive,Strongly Agree
