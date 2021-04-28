@@ -29,18 +29,32 @@ output:
 install.packages("googlesheets4")
 ```
 
-```{r, eval = F}
+```{r}
 library(googlesheets4)
 library(tidyverse)
 library('plotly')
 ```
 
-```{r, eval = F}
+```{r}
 # Read in your survey data
 survey = read_sheet("https://docs.google.com/spreadsheets/d/1akjF8jg0R76Q7Cxui5n_VhM9HpwU3naPa_gypXGqBRM/edit?usp=sharing")
+<<<<<<< HEAD
+=======
+survey$age = ordered(survey$age, levels=c("15-17", "18-21", "22-25", "30 and above"))
+survey$wake_up <- ordered(survey$wake_up, levels = c("5am or earlier", "6am", "7am", "8am", "9am", "10am", "11am", "12pm or later"))
+survey$go_bed <- ordered(survey$go_bed, levels = c("Earlier than 9pm", "10-11pm", "11pm-12am", "12-1am", "1am-2am", "Later than 2am"))
+survey$working_time <- ordered(survey$working_time, levels = c("0-2 hours", "2-4 hours", "4-6 hours", "6-8 hours", "8 or more hours"))
+>>>>>>> a299a38 (asdf)
 ```
 
+<br>
+
+## Research Questions 
+General
+
+age
 ```{r}
+<<<<<<< HEAD
 survey$`How old are you?` = ordered(survey$`How old are you?`, levels=c("15-17", "18-21", "22-25", "30 and above"))
 survey$`On average, what time do you usually go to bed each night?` = ordered(survey$`On average, what time do you usually go to bed each night?`, levels=c("Earlier than 9pm", "9-10pm", "10-11pm", "11pm-12am", "12-1am", "1am-2am", "Later than 2am"))  
 wake_up = survey$`On average, what time do you wake up each morning?`
@@ -52,17 +66,60 @@ eightplus_affect = survey$`Does getting 8+ hours of sleep per night affect how p
 enough_sleep = survey$`Do you believe you get enough sleep?`
 r_u = survey$`Do you consider yourself a productive person?`
 u_believe = survey$`Do you believe sleep has an effect on your productivity`
+=======
+a = table(survey$age)
+a
+barplot(a, main="Age")
+>>>>>>> a299a38 (asdf)
 ```
 
-<br>
+job
+```{r}
+pp <- plot_ly(survey, labels= ~job, type='pie', textposition = 'inside', textinfo = 'label+percent', showlegend= FALSE)
+pp <- pp %>% layout(title = 'job')
+pp
+```
 
-## Research Questions 
+rising hour
+```{r}
+a = table(survey$wake_up)
+a
+barplot(a, main="Rising Hour")
+```
+
+bed time
+
+```{r}
+a = table(survey$go_bed)
+a
+barplot(a, main="Bed Time")
+```
+
+sleeping hours
+
+```{r}
+a = table(survey$sleeping_hours)
+a
+barplot(a, main="Sleeping Hours")
+```
+
+working time
+
+```{r}
+a = table(survey$working_time)
+a
+barplot(a, main="Working Time")
+```
+
 
 age vs average hour to sleep
 job vs average hour to sleep
 ```{r}
 # length of any variable is the number of people involved in the survey
+<<<<<<< HEAD
 survey$age = ordered(survey$age, levels=c("15-17", "18-21", "22-25", "30 and above"))
+=======
+>>>>>>> a299a38 (asdf)
 n <- length(survey$age)
 for (i in 1:n) {
   if (survey$sleeping_hours[i]=="3 or less") {
@@ -90,9 +147,164 @@ p2
 
 Does going to bed early affect how productive you are the next day?
 ```{r}
+<<<<<<< HEAD
 p3 = plot_ly(survey, y =~`Does going to bed early affect how productive you are the next day?`, type="bar")
 p3
+=======
+a = table(survey$`Does going to bed early affect how productive you are the next day?`)
+barplot(a, main="Does going to bed early affect how productive you are the next day?", xlab="scores(1-10)", ylab="frequency")
 ```
+
+Does waking up early affect how productive you are that day?
+```{r}
+a = table(survey$`Does waking up early affect how productive you are that day?`)
+barplot(a, main="Does waking up early affect how productive you are that day?", xlab="scores(1-10)", ylab="frequency")
+```
+
+Do you believe sleep has an effect on your productivity?
+```{r}
+survey$`Do you believe sleep has an effect on your productivity` = ordered(survey$`Do you believe sleep has an effect on your productivity`, levels=c("Strongly Disagree", "Partly disagree", "Neither agree nor disagree", "Partly Agree", "Strongly Agree"))
+
+table(survey$`Do you believe sleep has an effect on your productivity`)
+p3 = plot_ly(survey, x = ~`Do you believe sleep has an effect on your productivity`, type='box')
+p3 <- p3 %>% layout(title="Do you believe sleep has an effect on your productivity?")
+p3
+```
+
+how much work 
+vs sleeping hours
+vs time wake-up (. vs wake up early effect?)
+vs go bed (. vs sleep early effect?)
+
+```{r}
+survey$sleeping_hours <- as.character(survey$sleeping_hours)
+
+for (i in 1:n) {
+  if (survey$sleeping_hours[i]=="3") {
+    survey$sleeping_hours[i] <- "< 3 hours"
+  } else if (survey$sleeping_hours[i]=="4") {
+    survey$sleeping_hours[i] <- "4 hours"
+  } else if (survey$sleeping_hours[i]=="5") {
+    survey$sleeping_hours[i] <- "5 hours"
+  } else if (survey$sleeping_hours[i]=="6") {
+    survey$sleeping_hours[i] <- "6 hours"
+  } else if (survey$sleeping_hours[i]=="7") {
+    survey$sleeping_hours[i] <- "7 hours"
+  } else if (survey$sleeping_hours[i]=="8") {
+    survey$sleeping_hours[i] <- "8 hours"
+  } else if (survey$sleeping_hours[i]=="9") {
+    survey$sleeping_hours[i] <- "9 hours"
+  } else if (survey$sleeping_hours[i]=="10") {
+    survey$sleeping_hours[i] <- "> 10 hours"
+  }
+}
+
+survey$sleeping_hours <- ordered(survey$sleeping_hours, levels= c("< 3 hours", "4 hours", "5 hours", "6 hours", "7 hours", "8 hours", "9 hours", "> 10 hours"))
+
+p4 = plot_ly(survey, x = ~working_time, y = ~sleeping_hours)
+p4 <- p4 %>% layout(title="working_time vs sleeping_hours")
+p4
+
+# same but box plot, above 2D histogram
+p6 = plot_ly(survey, x = ~working_time, color= ~sleeping_hours, type= 'box')
+p6 <- p6 %>% layout(title="working_time vs sleeping hours?")
+p6
+
+# wake up
+p4 = plot_ly(survey, x = ~working_time, color = ~wake_up, type = 'box')
+p4 <- p4 %>% layout(title="working_time vs rising hour")
+p4
+
+p5 = plot_ly(survey, x = ~`Does waking up early affect how productive you are that day?`, color = ~wake_up, type = 'box')
+p5 <- p5 %>% layout(title="Does going to bed early affect how productive you are the next day? vs rising hour")
+p5
+
+# go bed
+p4 = plot_ly(survey, x = ~working_time, color = ~go_bed, type = 'box')
+p4 <- p4 %>% layout(title="working_time vs bed time")
+p4
+
+p5 = plot_ly(survey, x = ~`Does going to bed early affect how productive you are the next day?`, color = ~go_bed, type = 'box')
+p5 <- p5 %>% layout(title="Does going to bed early affect how productive you are the next day? vs bed time")
+p5
+```
+
+
+Question 2 
+What is the relationship between the amount of hours slept by an individual and their productivity?
+
+Graph 2 
+Do you think you get enough sleep vs how productive you think you are - the person’s perception of their own productivity
+
+```{r}
+p6 = plot_ly(survey, x = ~`Do you believe you get enough sleep?`, color= ~`Do you consider yourself a productive person?`, type= 'box')
+p6 <- p6 %>% layout(title="Do you believe you get enough sleep? vs Do you consider yourself a productive person?")
+p6
+```
+
+Graph 3
+	"Do you believe sleep has an effect on your productivity" vs R u productive person? 
+	
+```{r}
+p6 = plot_ly(survey, x = ~`Do you believe sleep has an effect on your productivity`, y= ~`Do you consider yourself a productive person?`)
+
+p6 <- p6 %>% layout(title="Do you believe sleep has an effect on your productivity vs Do you consider yourself a productive person?")
+p6
+```
+	
+Graph 4
+	8 + vs Pro
+	
+```{r}
+p6 = plot_ly(survey, x = ~`Does getting 8+ hours of sleep per night affect how productive you are?`, color= ~`Do you consider yourself a productive person?`, type= 'box')
+p6 <- p6 %>% layout(title="Does getting 8+ hours of sleep per night affect how productive you are? vs Do you consider yourself a productive person?")
+p6
+>>>>>>> a299a38 (asdf)
+```
+
+G1
+
+Hours vs enough sleeping?
+
+```{r}
+p6 = plot_ly(survey, x = ~`Do you believe you get enough sleep?`, color= ~sleeping_hours, type= 'box')
+p6 <- p6 %>% layout(title="Do you believe you get enough sleep? vs sleeping hours?")
+p6
+```
+
+hours vs consider produc?
+
+```{r}
+p6 = plot_ly(survey, x = ~sleeping_hours, color= ~`Do you consider yourself a productive person?`, type= 'box')
+p6 <- p6 %>% layout(title="working time vs Do you consider yourself a productive person?")
+p6
+```
+
+Hours vs 8+
+
+```{r}
+p6 = plot_ly(survey, x = ~`Does getting 8+ hours of sleep per night affect how productive you are?`, color= ~sleeping_hours, type= 'box')
+p6 <- p6 %>% layout(title="Does getting 8+ hours of sleep per night affect how productive you are? vs sleeping hours?")
+p6
+```
+
+working vs sleeping time
+
+```{r}
+p6 = plot_ly(survey, x = ~working_time, color= ~sleeping_hours, type= 'box')
+p6 <- p6 %>% layout(title="working_time vs sleeping hours?")
+p6
+```
+
+Hours vs believe sleep affect u 
+
+```{r}
+p6 = plot_ly(survey, x = ~`Do you believe sleep has an effect on your productivity`, color= ~sleeping_hours, type= 'box')
+p6 <- p6 %>% layout(title="Do you believe sleep has an effect on your productivity vs sleeping hours?")
+p6
+```
+
+
 
 <br>
 
